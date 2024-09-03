@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Hanken Grotesk", sans-serif;
+}
+p{
+    font-size: 18px;
+}
+.bigcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+
+}
+.continer1{
+    background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    width: 310px;
+    height: auto;
+    border-radius: 15px ;
+    display: flex;
+    text-align: center;
+    padding: 2rem;
+    flex-direction: column;
+    color: hsl(241, 100%, 89%);
+}
+.circle{
+    width: 170px;
+    height: 170px;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), transparent);
+    border-radius: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.big{
+
+    font-size: 50px;
+    color: white;
+    font-weight: 900;
+}
+.of{
+    color: #ffffff57;
+}
+h2{
+    color: white;
+    font-weight: 500;
+}
+
+.continer2{
+    width: 310px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 9px 0px 20px 4px #0000000d;
+    background-color: hsl(0deg 0% 100%);
+    display: flex;
+    padding: 1rem 2rem;
+    flex-direction: column;
+}
+.sum{
+    font-size: 20px;
+    font-weight: 700
+}
+.butn{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    border-radius: 10px;
+}
+.r{
+    color: hsl(0, 100%, 67%);
+    background-color: hsl(0deg 100% 67% / 10%);
+}
+.m{
+    color: hsl(39, 100%, 56%);
+    background-color: hsl(39 100% 56% / 10%);
+}
+.ve{
+    color: hsl(166, 100%, 37%);
+    background-color: hsl(166 100% 37% / 10%);
+}
+.vi{
+    color: hsl(234, 85%, 45%);
+    background-color: hsl(234 85% 45% / 10%);
+}
+.color{
+    color: #00000087;
+    font-weight: 600;
+    
+}
+.icon{
+    display: flex;
+    align-items: center;
+}
+.icon p{
+    padding-left: 10px;
+}
+.color span{
+    font-weight: 700;
+    color: hsl(224, 30%, 27%);
+}
+.con{
+    padding: 15px;
+    border-radius: 25px;
+    font-weight: 800;
+    color: white;
+    background-color:hsl(224, 30%, 27%) ;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+.con:hover{
+    background-color:hsla(256, 72%, 46%, 1) ;
+    
+}
+@media screen and (max-width:550px) {
+    .bigcontainer{
+        flex-direction: column;
+    }
+    .continer2{
+        width: 320px;
+    }
+}
+@media screen and (max-width:550px) {
+    .continer1{
+        width: 100%;
+        border-radius: 0 0 20px 20px;
+    }
+        .continer2{
+        width: 100%;
+    }
+}
