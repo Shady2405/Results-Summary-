@@ -112,7 +112,7 @@ h2{
     border: 1px solid transparent;
 }
 .con:hover{
-    background-color:hsla(256, 72%, 46%, 1) ;
+    background-color:;
     
 }
 @media screen and (max-width:550px) {
